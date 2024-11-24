@@ -1,4 +1,7 @@
-let accountName = "Abdal Hussain";
-const password = '12121212';
+let gameCounter = 20;
 
-console.table([accountName,password]);
+console.log(--gameCounter);
+
+// console.log(gameCounter);
+
+
