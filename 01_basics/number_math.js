@@ -42,10 +42,34 @@ console.log((Math.random()*10)+1);
 console.log(Math.floor((Math.random()*10)+1));//1-10
 */
 
+/*
 //Exercise of random number b/w 1-20 or what number you want just change the b value.
 let a = 1;
 let b = 20;
 let c = a + (b - a)*Math.random();
 console.log(c);
+*/
 
 
+// //Q1: Round a number
+// function roundNumber(num) {
+//    let a = Math.round(num);
+//    return a;
+//   }
+  
+//   console.log(roundNumber(4.6)); // 5
+//   console.log(roundNumber(2.9)); // 4
+  
+//Q2: Geneerate Random Numbers
+// function randomNumber() {
+//     let a = 1;
+//     let b = 100;
+//     let c = a + (b - a)*((Math.random()));
+//     c = Math.floor(c);
+//     return c;
+//   }
+  
+//   console.log(randomNumber()); // A random number between 1 and 100
+  
+ // console.log(Math.floor(1 + ((100 -1) * Math.random())));//2nd method of finding random numbers
+  
