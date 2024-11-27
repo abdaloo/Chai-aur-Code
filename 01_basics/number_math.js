@@ -73,3 +73,80 @@ console.log(c);
   
  // console.log(Math.floor(1 + ((100 -1) * Math.random())));//2nd method of finding random numbers
   
+
+//  //Q3: Convert String to Number:
+//  function convertToNumber(str) {
+//     let number = Number(str);    
+//     return number;
+//   }
+//   console.log(convertToNumber("123.45")); // 123.45
+  
+//Q4: Find Maximum and Minimum
+
+// function findMaxAndMin(arr) {
+//     if(arr.length === 0){
+//         return "Array is empty";
+//     }
+
+//     let max = Math.max(...arr);
+//     let min = Math.min(...arr);
+
+//     return {max,min};
+//   }
+  
+//   console.log(findMaxAndMin([10, 20, 5, 40, 15])); 
+//   // { max: 40, min: 5 }
+  
+//Q5: Calculate Power
+// function calculatePower(base, exponent) {
+//     let powerNum = Math.pow(base,exponent)
+//     return powerNum;
+//   }
+  
+//   console.log(calculatePower(2, 3)); // 8
+//   console.log(calculatePower(5, 2)); // 25
+  
+//Q6: Absolute Value
+// function absoluteValue(num) {
+//     let AbsoluteNum = Math.abs(num);
+//     return AbsoluteNum;
+//   }
+  
+//   console.log(absoluteValue(-10)); // 10
+//   console.log(absoluteValue(7)); // 7
+  
+//Q7: Check if a Number is Finite
+// function isFiniteNumber(num) {
+//     let finiteNum = Number.isFinite(num);
+//     return finiteNum;
+//   }
+  
+//   console.log(isFiniteNumber(42)); // true
+//   console.log(isFiniteNumber(Infinity)); // false
+  
+//Q8: Fixed Decimal Places
+// function toTwoDecimalPlaces(num) {
+//     let number = num.toFixed(2);
+//     return number;
+//   }
+  
+//   console.log(toTwoDecimalPlaces(3.14159)); // 3.14
+//   console.log(toTwoDecimalPlaces(7)); // 7.00
+  
+//Q9: Generate Random Integers
+// function randomInteger(min, max) {
+//     let RandomNum = Math.floor( min + ((max - min)*Math.random() + 1));
+//     return RandomNum;
+//   }
+  
+//   console.log(randomInteger(90, 100)); // A random number between 10 and 20
+  
+//Q10: Finding Square Root
+// function squareRoot(num) {
+//     let number = Math.sqrt(num);
+//     return number;
+//   }
+  
+//   console.log(squareRoot(2)); // 4
+//   console.log(squareRoot(25)); // 5
+  
