@@ -1,2 +1,2 @@
 # Chai-aur-Code
-This is my learning Resource.
+This repositary is just for learning purpose
