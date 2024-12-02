@@ -3,19 +3,21 @@
 
 //Object Literals
 
-const mySymbol = Symbol("Key1");
+let mySymbol = Symbol("Key1");
 
 const JsUser = {
-  name: "Hitesh",
-  age: 18,
+  name: "Abdal",
+  age: 22,
   "father name": "M Hussain",
-  [mySymbol]: "mykey1",
-  location: "Jaipur",
+  
+  Symbol: "0",
+  location: "Tarnab",
   email: "abdal@google.com",
   isLoggedIn: false,
-  lastLoginDays: ["Monday", "Saturday"],
-  greeting : function(){
-    return ("Hello world");
+  lastLoginDays: ["Monday", "Saturday"],//Array Initialization
+  greeting : function(){//Function Initialization
+    // return ("Hello world");
+    console.log("Hello world");
   },
   arra: ["Hello","World"],
 
@@ -32,12 +34,13 @@ JsUser.email = "hitesh@microsoft.com";
 
 // console.log(JsUser.email);
 
-// JsUser.greeting = function () {
-//   console.log("Hello JS user");
+JsUser.greeting = function () {
+  console.log(`Hello JS user: ${this.name}`);
   
-// }
+}
 //console.log(JsUser.greeting());//Accessing function of Object
 //console.log(JsUser.arra[1]);//Accessing Array using object
-
+console.log(JsUser.Symbol);
+;
 
 
