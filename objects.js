@@ -1,24 +1,43 @@
-let cars = {
-    name: "BMW",
-    model: "2004",
-    color: "Red",
+//Method No: 1=> Singleton in Constructor Method of Creating Objects
+//Method No: 2=> Object Literals
+
+//Object Literals
+
+const mySymbol = Symbol("Key1");
+
+const JsUser = {
+  name: "Hitesh",
+  age: 18,
+  "father name": "M Hussain",
+  [mySymbol]: "mykey1",
+  location: "Jaipur",
+  email: "abdal@google.com",
+  isLoggedIn: false,
+  lastLoginDays: ["Monday", "Saturday"],
+  greeting : function(){
+    return ("Hello world");
+  },
+  arra: ["Hello","World"],
+
 }
 
-let person = {};
+// console.log(JsUser["email"])
+// console.log(typeof JsUser[mySymbol]);
 
-person.name = "Abdal";
-person.fatherName = "Muhammad Hussain";
-person.subject = "Computer Science";
+JsUser.email = "hitesh@chatchpt.com";
+// console.log(JsUser.email);
 
-let person = {
-    firstName: "John",
-    lastName : "Doe",
-    id       : 5566,
-    fullName : function() {
-      return this.firstName + " " + this.lastName;
-    }
-  };
+//Object.freeze(JsUser);//It Freeze the value of object from Initializing other values added to object keys
+JsUser.email = "hitesh@microsoft.com";
 
-  console.log(person.fullName);
+// console.log(JsUser.email);
+
+// JsUser.greeting = function () {
+//   console.log("Hello JS user");
   
+// }
+//console.log(JsUser.greeting());//Accessing function of Object
+//console.log(JsUser.arra[1]);//Accessing Array using object
+
+
 
