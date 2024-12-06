@@ -1,6 +1,17 @@
-function sayMyName(){
-    console.log("Abdal");
-    
+function sayMyName(user){
+    if(user == ""){
+        console.log("Please Enter Your Name: ");
+        return
+    }
+
+    return `${user} just logged in`;    
 }
 
-sayMyName()
+// console.log(sayMyName(name));
+// console.log(sayMyName('ab'));
+sayMyName();
+
+console.log(sayMyName("abdal"));
+
+
+
