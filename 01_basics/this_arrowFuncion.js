@@ -31,6 +31,8 @@ const user = {
 // }
 // chai();
 
+//++++++++++++++++++++++Arrow function+++++++++++++++++
+
 const chai = () => {
     let username = "abdal"
     console.log(this.username);//undefined: because arrow function do not bind their own "this " keyword
