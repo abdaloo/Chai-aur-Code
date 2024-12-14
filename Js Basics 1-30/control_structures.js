@@ -1,22 +1,21 @@
+// let userEmail = "";
 
-
-//+++++++++++++++
-let age = 17;
-let hasLicense = true;
-
-if(age >= 18){
-    console.log("You are old enough to drive");
+// if(userEmail.length === 0){
+//     console.log("Object is empty");
     
-    if(hasLicense){
-        console.log("You have your licence");
-        
-    }
-    else{
-        console.log("You do not have your license yet!");
-        
-    }
-}
-else{
-    console.log("you must be 18+ to have a licence");
+// }
+
+// let userObject = {};
+
+// if(Object.keys(userObject).length === 0){
+//     console.log("Object is empty");
     
-}
+// }
+
+//+++++++++ Nullish Collesing operator
+
+let value = undefined ?? 0;// it bypass the null and undefined values
+
+
+console.log(value);
+
