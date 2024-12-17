@@ -114,3 +114,11 @@ myCoding.forEach((item)=>{
     console.log(item.languageName);
     
 })
+
+
+//Video No: 29, High order array loop.
+
+//In this video we learned about forof loop, forin loop,
+//relation of array,object with forof loop, as will as forin loop.
+
+//Very useful video over all
